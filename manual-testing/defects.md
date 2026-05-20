@@ -18,7 +18,7 @@ DEF_PM_009	Authentication – Session persists after closing tab	Medium	Open
 
 
 ## Detailed Defects
-DEF_PM_001 – System accepts extremely long names (>1000 characters)
+### 1. DEF_PM_001 – System accepts extremely long names (>1000 characters)
 Module: Registration
 Severity: Medium
 Steps to Reproduce:
@@ -40,7 +40,7 @@ Account created successfully
 Status: Open
 Notes: Input length validation is missing for name fields
 
-DEF_PM_002 – Weak email validation (invalid formats accepted)
+### 2. DEF_PM_002 – Weak email validation (invalid formats accepted)
 Module: Registration
 Severity: High
 Steps:
@@ -60,7 +60,7 @@ Account created successfully; only minimal validation applied
 Status: Open
 Notes: Email regex too weak
 
-DEF_PM_003 – Extremely long email (>1000 chars) accepted
+### 3. DEF_PM_003 – Extremely long email (>1000 chars) accepted
 Module: Registration
 Severity: High
 Steps:
@@ -77,7 +77,7 @@ Account created successfully
 
 Status: Open
 
-DEF_PM_004 – Weak passwords accepted (no complexity rules)
+### 4. DEF_PM_004 – Weak passwords accepted (no complexity rules)
 Module: Registration
 Severity: High
 Steps:
@@ -94,7 +94,7 @@ Account created successfully
 
 Status: Open
 
-DEF_PM_005 – Extremely long password (>1000 chars) accepted
+### 5. DEF_PM_005 – Extremely long password (>1000 chars) accepted
 Module: Registration
 Severity: Medium
 Steps:
@@ -111,7 +111,7 @@ Account created successfully
 
 Status: Open
 
-DEF_PM_006 – Forgot Password: No recovery email received
+### 6. DEF_PM_006 – Forgot Password: No recovery email received
 Module: Authentication
 Severity: Critical
 Steps:
@@ -131,7 +131,7 @@ Success message displayed but no email received
 Status: Open
 Notes: Email service may not be configured or failing silently
 
-DEF_PM_007 – Languages: System accepts extremely long language names
+### 7. DEF_PM_007 – Languages: System accepts extremely long language names
 Module: Languages
 Severity: Medium
 Steps:
@@ -148,7 +148,7 @@ Language added successfully
 
 Status: Open
 
-DEF_PM_008 – Skills: System accepts extremely long skill names
+### 8. DEF_PM_008 – Skills: System accepts extremely long skill names
 Module: Skills
 Severity: Medium
 Steps:
@@ -165,7 +165,7 @@ Skill added successfully
 
 Status: Open
 
-DEF_PM_009 – Session persists after closing browser tab
+### 9. DEF_PM_009 – Session persists after closing browser tab
 Module: Authentication / Access Control
 Severity: Medium
 Steps:
